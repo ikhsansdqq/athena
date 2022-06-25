@@ -1,0 +1,41 @@
+@media only screen and (max-width: 600px) {
+    body {margin: 0;padding: 0;background-color: #FFF;}
+    #container {
+        max-width: 100%;
+    }
+    #main {
+        display: flex;
+        padding: 24px 16px;
+        flex-direction: column;
+    }
+    #content {
+        max-width: 100%;
+        margin-bottom: 16px;
+    }
+    #sidebar {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        max-width: 100%;
+    }
+    .nav {
+        top: 0;
+        z-index: 100;
+        position: sticky;
+        padding: 24px 16px;
+    }
+    .nav img {
+        max-width: 30%;
+    }
+    .nav a {
+        font-size: 15px;
+    }
+    .article h1 {
+        text-align: left;
+        font-size: 22px;
+    }
+    .article p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+}

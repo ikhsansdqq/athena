@@ -1,0 +1,14 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #F3F7FF;
+}
+::-webkit-scrollbar-thumb {
+    background: #25265E;
+    border-radius: 8px;
+}
+/*!* Handle on hover *!*/
+/*::-webkit-scrollbar-thumb:hover {*/
+/*    background: #25265E;*/
+/*}*/
