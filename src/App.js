@@ -4,6 +4,7 @@ import './style/marginal.css'
 import './style/form.css'
 import './style/respons.css'
 import './style/bar.css'
+import './style/footer.css'
 import logo from './asset/img/logo.png';
 
 class Card extends Component {
@@ -27,6 +28,20 @@ class Article extends Component {
         );
     }
 }
+class Footer extends Component {
+    render() {
+        return (
+          <div className={"footer"}>
+              <div className="leftRow">
+                  <a href="/" target={"_self"}>Made and hosted in Indonesia 🇮🇩</a>
+              </div>
+              <div className="rightRow">
+                  <a href="#" target={"_self"}>The Journey</a>
+              </div>
+          </div>
+        );
+    }
+}
 
 class App extends Component {
     render() {
@@ -45,6 +60,7 @@ class App extends Component {
                         <Article title={"Cryogenic, Is It Possible?"} nameText={"Jonathan Gilzean"} artDesc={"According to the scientist, cryogenic is a branch of physics dealing with the production and effects of very low temperatures. It believed by many movies that cryogenic could make someone to be immortal."}></Article>
                         <Article title={"What Are You Doing?"} nameText={"Mark Rise"} artDesc={"According to the scientist, cryogenic is a branch of physics dealing with the production and effects of very low temperatures. It believed by many movies that cryogenic could make someone to be immortal."}/>
                         <Article title={"Tale of Agamemnon"} nameText={"Ikhsan Assidiqie"} artDesc={"Upon Agamemnon's return from Troy, he was killed (according to the oldest surviving account, Odyssey 11.409–11) by Aegisthus, the lover of his wife Clytemnestra. In old versions of the story, the scene of the murder, when it is specified, is usually the house of Aegisthus, who has not taken up residence in Agamemnon's palace. the killing, or she and Aegisthus act together, killing Agamemnon in his own home.."}/>
+                        <Article title={"Gotham Season 3, Review"} nameText={"John Daly"} artDesc={"According to the scientist, cryogenic is a branch of physics dealing with the production and effects of very low temperatures. It believed by many movies that cryogenic could make someone to be immortal."}/>
                     </div>
                     <div id="sidebar">
                         <Card nameId={"Jonathan Gilzean"} occupation={"CFO of Inherit VC • VP Enterprise of Risen Capital."}/>
@@ -52,6 +68,7 @@ class App extends Component {
                         <Card nameId={"Ben McArthur"} occupation={"CMO of Sunken River • Investor of Adherer Media."}/>
                     </div>
                 </div>
+                <Footer/>
             </div>
         );
     }

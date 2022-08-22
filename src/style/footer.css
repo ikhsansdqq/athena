@@ -1,0 +1,26 @@
+.footer {
+    padding: 24px 36px;
+    color: white;
+    background-color: #202124;
+    display: flex;
+}
+.leftRow {
+    width: 50%;
+    max-width: 50%;
+}
+.leftRow a {
+    color: #A5A5A5;
+}
+.rightRow {
+    width: 50%;
+    max-width: 50%;
+    text-align: right;
+}
+.rightRow a {
+    color: white;
+}
+.footer a {
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+}
